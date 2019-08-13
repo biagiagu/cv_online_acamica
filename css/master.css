@@ -1,0 +1,199 @@
+body{
+    background-color: #EFEEEB;
+    font-family:  'Roboto Condensed','Roboto', sans-serif;
+}
+
+.containerGral{
+    width: 900px;
+    margin: auto;
+}
+
+/* ------------------------------------------------------------------- */
+/* FOTO PERFIL Y MENU DE NAVEGACION */
+
+aside{
+	float: left;
+    width: 20%;
+    height: 250vh;
+    padding: 10px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	
+}
+
+
+/* Foto perfil */
+
+.pictureProfile {
+    padding: 20px 0px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Menu navegacion */
+
+.menu{
+    position: sticky;
+	top: 0px;
+	flex-direction: column;
+}
+
+aside a{
+	display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 8px;
+    margin: 0px auto 3px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    background-color: rgb(255, 189, 51, 50);
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+aside a:hover{
+    background-color: #FFDA53;
+	width: 110%;
+	transition: 200ms;
+	
+}
+/* ------------------------------------------- */
+/* SECCIONES */
+
+.containerSection {
+	float: right;
+	width: 75%;
+
+}
+
+section {
+	/* height: 100vh; */
+    background-color: white;
+    padding: 20px 30px;
+    margin-bottom: 5px;
+	border-radius: 7px;
+    /* box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.5); */
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+}
+
+hr{
+    color: #FFDA53;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 1px;
+}
+
+h1  {
+    color: #202329;
+    margin: 10px;
+    font-size: 2.5em;
+}
+
+h2, h3 {
+    color: #009A9C;
+}
+p {
+    color:#40434A;
+}
+
+
+/* Sección Datos Personales */
+
+.contenedorDatosPersonales{
+    margin-top: 15px;
+
+}
+
+.elementoDatosPersonales{
+    display: flex;
+    align-items: center;
+    border-bottom: rgb(226, 177, 16) dotted 1px;
+    padding: 10px 0px 4px 0px;
+}
+
+.iconDatosPersonales{
+    width: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Sección HOBBIES  */
+
+.conteinerAlbun {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	border-radius: 7px;
+	box-shadow: inset 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+	padding: 10px;
+}
+.tarjetaFoto {
+	width: 23%;
+	max-height: 165px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.3); */
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+}
+
+:hover.tarjetaFoto {
+	width: 27%;
+	transition: 100ms;
+    background-color: rgba(60,64,67,0.15);
+    color: rgba(60,64,67,0.15);
+	
+}
+
+.fotoAlbun {
+	width: 90%;
+    box-sizing: border-box;
+	margin: 6px auto;
+}
+
+.descripcionFoto {
+    height: 30px;
+    overflow: hidden;
+}
+
+/* ----------------------------------------------------- */
+/* FOOTER */
+
+footer{
+	display: flex;
+	flex-direction: column;
+    clear: both;
+    align-items: center;
+	background-color: #40434A;
+	width: 900px;
+	margin-top: 5px;
+	height: 75px;
+}
+
+footer p {
+	margin: auto;
+    color: white;
+    text-align: center;
+}
+
+footer ul{
+    padding: 0px;
+}
+footer li{
+    list-style-type: none;
+    display: inline;
+}
+
+footer a{
+    border-radius: 0px;
+}
+.socialIcon {
+    width: 20px;
+}
